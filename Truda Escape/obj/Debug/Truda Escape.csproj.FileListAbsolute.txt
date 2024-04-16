@@ -1,0 +1,51 @@
+C:\Users\az711\source\repos\az0tych\Truda-Escape\Truda Escape\bin\Debug\перед фон.png
+C:\Users\az711\source\repos\az0tych\Truda-Escape\Truda Escape\bin\Debug\зад закрытые_шторы_магнит.png
+C:\Users\az711\source\repos\az0tych\Truda-Escape\Truda Escape\bin\Debug\зад открфтые_шторы.png
+C:\Users\az711\source\repos\az0tych\Truda-Escape\Truda Escape\bin\Debug\зад открфтые_шторы_магнит.png
+C:\Users\az711\source\repos\az0tych\Truda-Escape\Truda Escape\bin\Debug\зад фон.png
+C:\Users\az711\source\repos\az0tych\Truda-Escape\Truda Escape\bin\Debug\лево пк_close.png
+C:\Users\az711\source\repos\az0tych\Truda-Escape\Truda Escape\bin\Debug\лево пк_open.png
+C:\Users\az711\source\repos\az0tych\Truda-Escape\Truda Escape\bin\Debug\лево фон.png
+C:\Users\az711\source\repos\az0tych\Truda-Escape\Truda Escape\bin\Debug\перед решённый.png
+C:\Users\az711\source\repos\az0tych\Truda-Escape\Truda Escape\bin\Debug\перед сток.png
+C:\Users\az711\source\repos\az0tych\Truda-Escape\Truda Escape\bin\Debug\право диск_лист.png
+C:\Users\az711\source\repos\az0tych\Truda-Escape\Truda Escape\bin\Debug\право лист.png
+C:\Users\az711\source\repos\az0tych\Truda-Escape\Truda Escape\bin\Debug\право магнит.png
+C:\Users\az711\source\repos\az0tych\Truda-Escape\Truda Escape\bin\Debug\право фон.png
+C:\Users\az711\source\repos\az0tych\Truda-Escape\Truda Escape\bin\Debug\Truda Escape.exe.config
+C:\Users\az711\source\repos\az0tych\Truda-Escape\Truda Escape\bin\Debug\Truda Escape.exe
+C:\Users\az711\source\repos\az0tych\Truda-Escape\Truda Escape\bin\Debug\Truda Escape.pdb
+C:\Users\az711\source\repos\az0tych\Truda-Escape\Truda Escape\obj\Debug\Truda Escape.csproj.AssemblyReference.cache
+C:\Users\az711\source\repos\az0tych\Truda-Escape\Truda Escape\obj\Debug\Truda Escape.csproj.SuggestedBindingRedirects.cache
+C:\Users\az711\source\repos\az0tych\Truda-Escape\Truda Escape\obj\Debug\Truda_Escape.Form1.resources
+C:\Users\az711\source\repos\az0tych\Truda-Escape\Truda Escape\obj\Debug\Truda_Escape.Form2.resources
+C:\Users\az711\source\repos\az0tych\Truda-Escape\Truda Escape\obj\Debug\Truda_Escape.Properties.Resources.resources
+C:\Users\az711\source\repos\az0tych\Truda-Escape\Truda Escape\obj\Debug\Truda Escape.csproj.GenerateResource.cache
+C:\Users\az711\source\repos\az0tych\Truda-Escape\Truda Escape\obj\Debug\Truda Escape.csproj.CoreCompileInputs.cache
+C:\Users\az711\source\repos\az0tych\Truda-Escape\Truda Escape\obj\Debug\Truda Escape.exe
+C:\Users\az711\source\repos\az0tych\Truda-Escape\Truda Escape\obj\Debug\Truda Escape.pdb
+C:\Users\hochukvass\source\repos\Truda-Escape\Truda Escape\bin\Debug\перед фон.png
+C:\Users\hochukvass\source\repos\Truda-Escape\Truda Escape\bin\Debug\зад закрытые_шторы_магнит.png
+C:\Users\hochukvass\source\repos\Truda-Escape\Truda Escape\bin\Debug\зад открфтые_шторы.png
+C:\Users\hochukvass\source\repos\Truda-Escape\Truda Escape\bin\Debug\зад открфтые_шторы_магнит.png
+C:\Users\hochukvass\source\repos\Truda-Escape\Truda Escape\bin\Debug\зад фон.png
+C:\Users\hochukvass\source\repos\Truda-Escape\Truda Escape\bin\Debug\лево пк_close.png
+C:\Users\hochukvass\source\repos\Truda-Escape\Truda Escape\bin\Debug\лево пк_open.png
+C:\Users\hochukvass\source\repos\Truda-Escape\Truda Escape\bin\Debug\лево фон.png
+C:\Users\hochukvass\source\repos\Truda-Escape\Truda Escape\bin\Debug\перед решённый.png
+C:\Users\hochukvass\source\repos\Truda-Escape\Truda Escape\bin\Debug\перед сток.png
+C:\Users\hochukvass\source\repos\Truda-Escape\Truda Escape\bin\Debug\право диск_лист.png
+C:\Users\hochukvass\source\repos\Truda-Escape\Truda Escape\bin\Debug\право лист.png
+C:\Users\hochukvass\source\repos\Truda-Escape\Truda Escape\bin\Debug\право магнит.png
+C:\Users\hochukvass\source\repos\Truda-Escape\Truda Escape\bin\Debug\право фон.png
+C:\Users\hochukvass\source\repos\Truda-Escape\Truda Escape\bin\Debug\Truda Escape.exe.config
+C:\Users\hochukvass\source\repos\Truda-Escape\Truda Escape\bin\Debug\Truda Escape.exe
+C:\Users\hochukvass\source\repos\Truda-Escape\Truda Escape\bin\Debug\Truda Escape.pdb
+C:\Users\hochukvass\source\repos\Truda-Escape\Truda Escape\obj\Debug\Truda Escape.csproj.AssemblyReference.cache
+C:\Users\hochukvass\source\repos\Truda-Escape\Truda Escape\obj\Debug\Truda_Escape.Form1.resources
+C:\Users\hochukvass\source\repos\Truda-Escape\Truda Escape\obj\Debug\Truda_Escape.Form2.resources
+C:\Users\hochukvass\source\repos\Truda-Escape\Truda Escape\obj\Debug\Truda_Escape.Properties.Resources.resources
+C:\Users\hochukvass\source\repos\Truda-Escape\Truda Escape\obj\Debug\Truda Escape.csproj.GenerateResource.cache
+C:\Users\hochukvass\source\repos\Truda-Escape\Truda Escape\obj\Debug\Truda Escape.csproj.CoreCompileInputs.cache
+C:\Users\hochukvass\source\repos\Truda-Escape\Truda Escape\obj\Debug\Truda Escape.exe
+C:\Users\hochukvass\source\repos\Truda-Escape\Truda Escape\obj\Debug\Truda Escape.pdb

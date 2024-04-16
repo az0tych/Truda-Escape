@@ -137,6 +137,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="inventory.png" />
+    <None Include="сумка_замок.png" />
     <None Include="диск.png" />
     <None Include="магнит_тр.png" />
     <None Include="магнит_зв.png" />
