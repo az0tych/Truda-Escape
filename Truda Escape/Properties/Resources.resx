@@ -196,4 +196,28 @@
   <data name="сумка_замок" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\сумка_замок.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="доска_без_магнитов" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\доска_без_магнитов.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="доска_магниты" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\доска_магниты.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="часы" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\часы.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ключ" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\ключ.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="перед_без_ТВ_решён_магнит_и_часы_без_ключа" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\перед без ТВ_решён_магнит_и_часы_без_ключа.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="скремак" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\скремак.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="сумка" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\сумка.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="сумка_магнит" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\сумка_магнит.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
 </root>

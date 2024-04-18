@@ -137,15 +137,23 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="inventory.png" />
+    <None Include="скремак.png" />
+    <None Include="сумка.png" />
+    <None Include="сумка_магнит.png" />
+    <None Include="часы.png" />
     <None Include="сумка_замок.png" />
     <None Include="диск.png" />
     <None Include="магнит_тр.png" />
     <None Include="магнит_зв.png" />
     <None Include="магнит_кв.png" />
     <None Include="дисковод.mp3" />
+    <None Include="доска_магниты.png" />
+    <None Include="доска_без_магнитов.png" />
+    <None Include="ключ.png" />
     <Content Include="перед без ТВ_магнит.png" />
     <Content Include="перед без ТВ_решён_магнит.png" />
     <Content Include="перед без ТВ_решён_магнит_и_часы.png" />
+    <None Include="перед без ТВ_решён_магнит_и_часы_без_ключа.png" />
     <Content Include="право диск.png" />
     <Content Include="право диск_магнит.png" />
   </ItemGroup>

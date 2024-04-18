@@ -19,17 +19,17 @@ namespace Truda_Escape
         Random random = new Random();
         int side = 0, back = 0, right_d = 0, right_m = 0, left_ = 0, temp;
         Image back_front = Properties.Resources.перед_фон, back_left = Properties.Resources.лево_фон, back_back = Properties.Resources.зад_фон, back_right = Properties.Resources.право_фон,
+            desk_im = Properties.Resources.доска_без_магнитов,
             back_im = Properties.Resources.зад_закрытые_шторы_магнит,
             right_im = Properties.Resources.право_диск_лист, 
             left_im = Properties.Resources.лево_пк_open,
             front_im = Properties.Resources.перед_сток,
             mT = Properties.Resources.магнит_тр , 
-            mK = Properties.Resources.магнит_кв, mZ = Properties.Resources.магнит_зв, disk = Properties.Resources.диск,
-            sum_im = Properties.Resources.сумка_замок;
+            mK = Properties.Resources.магнит_кв, mZ = Properties.Resources.магнит_зв, disk = Properties.Resources.диск, key = Properties.Resources.ключ,
+            sum_im = Properties.Resources.сумка_замок, sum_ch = Properties.Resources.сумка_магнит;
         string kodik, i_che = "";
-        bool sum_kod = false, front_Tru = false, front_M = false, front_Ch = false,
-            i_mT = false, i_mZ = false, i_mK = false, i_disk = false;
-
+        bool sum_kod = false, sum_t = false, sum_o = false, front_Tru = false, front_M = false, front_Ch = false, door = false,
+            i_mT = false, i_mZ = false, i_mK = false, i_disk = false, i_key = false;
         string vrem;
 
         public Form1()
@@ -44,7 +44,7 @@ namespace Truda_Escape
             temp = random.Next(59);
             vrem += $"{(temp < 10 ? $"0{temp}" : $"{temp}")}";
             M_vrem.Text = vrem;
-            mT.Tag = "mT"; mK.Tag = "mK"; mZ.Tag = "mZ"; disk.Tag = "disk";
+            mT.Tag = "mT"; mK.Tag = "mK"; mZ.Tag = "mZ"; disk.Tag = "disk"; key.Tag = "key"; sum_ch.Tag = "sum_ch";
         }
 
 
@@ -73,8 +73,10 @@ namespace Truda_Escape
             }
             if(j == 4)
             {
+                sum_im = sum_ch;
                 sum_kod = true;
                 sumka.Visible = false;
+                this.BackgroundImage = sum_im;
             }
         }
 
@@ -150,17 +152,48 @@ namespace Truda_Escape
                 inventory_und(mK);
                 inventory_und(mT);
                 inventory_und(mZ);
-                for (int i = magnitiki.Controls.Count - 1; i >= 0; i--)
-                {
-                    ((PictureBox)magnitiki.Controls[i]).Visible = false;
-                }
+                desk_im = Properties.Resources.доска_магниты;
+                this.BackgroundImage = desk_im;
                 M_vrem.Visible = true;
+                front_M = true;
+                front_im = Properties.Resources.перед_без_ТВ_решён_магнит;
             }
+        }
+
+        private void clock_ch(object sender, EventArgs e)
+        {
+            int j = 0;
+            string[] s = vrem.Split(':');
+            for (int i = clock.Controls.Count - 1; i >= 0; i--)
+            {
+                if (Convert.ToInt32((((NumericUpDown)clock.Controls[i]).Value).ToString()) == Convert.ToInt32(s[s.Length - 1 - i]))
+                {
+                    j++;
+                }
+                else
+                {
+                    break;
+                }
+            }
+            if (j == 2)
+            {
+                front_Ch = true;
+                front_im = Properties.Resources.перед_без_ТВ_решён_магнит_и_часы;
+                back_but_Click(sender, e);
+            }
+        }
+
+        async private void skream()
+        {
+            this.BackgroundImage = Properties.Resources.скремак;
+            front_p.Image = null;
+            await Task.Delay(400);
+            if(door) { this.Close(); }
         }
 
         private void front_ch(int X, int Y)
         {
-            if(Y > 471 & Y < 831 & X > 93 & X < 411 & !front_Tru)
+            if (Y > 471 & Y < 831 & X > 93 & X < 411 & !front_Tru)
             {
                 if (back >= 1)
                 {
@@ -193,7 +226,11 @@ namespace Truda_Escape
                     }
                     else
                     {
+                        skream();
                         MessageBox.Show("НЕ ТРОГАЙ МОЮ СУМКУ!!!!!!", "Татьяна Владимировна:");
+                        this.BackgroundImage = Properties.Resources.перед_фон;
+                        front_p.Image = front_im;
+                        front_p.Refresh();
                     }
                 }
                 else
@@ -205,31 +242,74 @@ namespace Truda_Escape
                     back_but.Visible = true;
                 }
             }
-            else if(this.BackgroundImage == sum_im & Y > 0 & Y < 1080 & X > 0 & X < 1920)
+            else if (!sum_t & this.BackgroundImage.Tag == sum_ch.Tag & Y > 0 & Y < 1080 & X > 0 & X < 1920)
             {
-                if ( !i_mT)
-                {
-                    inventory_add(mT);
-                    i_mT = true;
-                }
+                inventory_add(mT);
+                sum_im = Properties.Resources.сумка;
+                this.BackgroundImage = sum_im;
+                i_mT = true;
+                sum_t = true;
             }
             else if (Y > 234 & Y < (234 + 248) & X > 694 & X < (694 + 266))
             {
-                if (!front_M)
+                if (front_Tru)
                 {
-                    if (front_Tru)
+                    this.BackgroundImage = desk_im;
+                    front_p.Image = null;
+                    left.Visible = false;
+                    right.Visible = false;
+                    magnitiki.Visible = true;
+                    back_but.Visible = true;
+                }
+                else
+                {
+                    MessageBox.Show("Не играйтесь с доской!", "Татьяна Владимировна:");
+                }
+            }
+            else if (Y > 130 & Y < 275 & X > 990 & X < 1145 & !front_Ch)
+            {
+                if (front_Tru )
+                {
+                    this.BackgroundImage = Properties.Resources.часы;
+                    front_p.Image = null;
+                    left.Visible = false;
+                    right.Visible = false;
+                    clock.Visible = true;
+                    back_but.Visible = true;
+                }
+                else
+                {
+                    MessageBox.Show("Осторожнее с часами!", "Татьяна Владимировна:");
+                }
+            }
+            else if (Y > 920 & Y < 990 & X > 920 & X < 1020 & front_Ch)
+            {
+                inventory_add(key);
+                i_key = true;
+                front_im = Properties.Resources.перед_без_ТВ_решён_магнит_и_часы_без_ключа;
+                front_p.Image = front_im;
+            }
+            else if (Y > 230 & Y < 840 & X > 1335 & X < 1650)
+            {
+                if (front_Tru)
+                {
+                    if (i_che == key.Tag.ToString())
                     {
-                        this.BackgroundImage = null;
-                        front_p.Image = null;
-                        left.Visible = false;
-                        right.Visible = false;
-                        magnitiki.Visible = true;
-                        back_but.Visible = true;
+                        front_im = Properties.Resources.перед_решённый;
+                        inventory_und(key);
+                        i_key = false;
+                        door = true;
+                        front_p.Image = front_im;
                     }
-                    else
+                    else if (door)
                     {
-                        MessageBox.Show("Не играйтесь с доской!", "Татьяна Владимировна:");
+                        skream();
+                        
                     }
+                }
+                else
+                {
+                    MessageBox.Show("Куда это вы СОБРАЛИСЬ?!?", "Татьяна Владимировна:");
                 }
             }
             front_p.Refresh();
@@ -332,6 +412,7 @@ namespace Truda_Escape
             front_p.Image = front_im;
             sumka.Visible = false;
             magnitiki.Visible = false;
+            clock.Visible = false;
             left.Visible = true;
             front_p.Visible = true;
             right.Visible = true;

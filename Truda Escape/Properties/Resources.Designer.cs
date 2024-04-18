@@ -93,6 +93,26 @@ namespace Truda_Escape.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap доска_без_магнитов {
+            get {
+                object obj = ResourceManager.GetObject("доска_без_магнитов", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap доска_магниты {
+            get {
+                object obj = ResourceManager.GetObject("доска_магниты", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap зад_закрытые_шторы_магнит {
             get {
                 object obj = ResourceManager.GetObject("зад_закрытые_шторы_магнит", resourceCulture);
@@ -126,6 +146,16 @@ namespace Truda_Escape.Properties {
         internal static System.Drawing.Bitmap зад_фон {
             get {
                 object obj = ResourceManager.GetObject("зад_фон", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ключ {
+            get {
+                object obj = ResourceManager.GetObject("ключ", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -223,6 +253,16 @@ namespace Truda_Escape.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap перед_без_ТВ_решён_магнит_и_часы_без_ключа {
+            get {
+                object obj = ResourceManager.GetObject("перед_без_ТВ_решён_магнит_и_часы_без_ключа", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap перед_решённый {
             get {
                 object obj = ResourceManager.GetObject("перед_решённый", resourceCulture);
@@ -313,9 +353,49 @@ namespace Truda_Escape.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap скремак {
+            get {
+                object obj = ResourceManager.GetObject("скремак", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap сумка {
+            get {
+                object obj = ResourceManager.GetObject("сумка", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap сумка_замок {
             get {
                 object obj = ResourceManager.GetObject("сумка_замок", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap сумка_магнит {
+            get {
+                object obj = ResourceManager.GetObject("сумка_магнит", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap часы {
+            get {
+                object obj = ResourceManager.GetObject("часы", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
